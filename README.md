@@ -76,7 +76,7 @@ Stelle sicher, dass du Folgendes installiert hast:
 
 ### Farben-Konfiguration
 
-Die verfügbaren Farben werden als Liste von Umgebungsvariablen gespeichert:
+Die verfügbaren Farben werden als Map in der Konfigurationsdatei gespeichert. Jede Farbe ist einer einzigartigen ID zugeordnet. Diese Konfiguration befindet sich in der application.properties und sieht folgendermaßen aus:
 
 - **colors.colors.1**: `blau`
 - **colors.colors.2**: `grün`
